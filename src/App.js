@@ -16,7 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           I am learning React!
-          I used AWS as well
+          I used AWS as well, yay
         </a>
       </header>
     </div>
