@@ -1,6 +1,7 @@
 FROM node:20 as builder
 WORKDIR '/app'
 COPY package.json .
+RUN npm ci && npm cache clean --force
 RUN npm install
 COPY . .
 RUN npm run build
